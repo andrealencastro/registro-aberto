@@ -1,0 +1,662 @@
+{
+  "fonte": "DivulgaCandContas/TSE",
+  "ano": 2026,
+  "eleicao_id": 20322002026,
+  "delay_seconds": 1.0,
+  "targets": [
+    {
+      "ue": "BR",
+      "cargo": 1,
+      "path": "BR/1_presidente.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BR/20322002026/1/candidatos"
+    },
+    {
+      "ue": "AC",
+      "cargo": 3,
+      "path": "AC/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AC/20322002026/3/candidatos"
+    },
+    {
+      "ue": "AL",
+      "cargo": 3,
+      "path": "AL/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AL/20322002026/3/candidatos"
+    },
+    {
+      "ue": "AP",
+      "cargo": 3,
+      "path": "AP/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AP/20322002026/3/candidatos"
+    },
+    {
+      "ue": "AM",
+      "cargo": 3,
+      "path": "AM/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AM/20322002026/3/candidatos"
+    },
+    {
+      "ue": "BA",
+      "cargo": 3,
+      "path": "BA/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BA/20322002026/3/candidatos"
+    },
+    {
+      "ue": "CE",
+      "cargo": 3,
+      "path": "CE/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/CE/20322002026/3/candidatos"
+    },
+    {
+      "ue": "DF",
+      "cargo": 3,
+      "path": "DF/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/DF/20322002026/3/candidatos"
+    },
+    {
+      "ue": "ES",
+      "cargo": 3,
+      "path": "ES/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/ES/20322002026/3/candidatos"
+    },
+    {
+      "ue": "GO",
+      "cargo": 3,
+      "path": "GO/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/GO/20322002026/3/candidatos"
+    },
+    {
+      "ue": "MA",
+      "cargo": 3,
+      "path": "MA/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MA/20322002026/3/candidatos"
+    },
+    {
+      "ue": "MT",
+      "cargo": 3,
+      "path": "MT/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MT/20322002026/3/candidatos"
+    },
+    {
+      "ue": "MS",
+      "cargo": 3,
+      "path": "MS/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MS/20322002026/3/candidatos"
+    },
+    {
+      "ue": "MG",
+      "cargo": 3,
+      "path": "MG/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MG/20322002026/3/candidatos"
+    },
+    {
+      "ue": "PA",
+      "cargo": 3,
+      "path": "PA/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PA/20322002026/3/candidatos"
+    },
+    {
+      "ue": "PB",
+      "cargo": 3,
+      "path": "PB/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PB/20322002026/3/candidatos"
+    },
+    {
+      "ue": "PR",
+      "cargo": 3,
+      "path": "PR/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PR/20322002026/3/candidatos"
+    },
+    {
+      "ue": "PE",
+      "cargo": 3,
+      "path": "PE/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PE/20322002026/3/candidatos"
+    },
+    {
+      "ue": "PI",
+      "cargo": 3,
+      "path": "PI/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PI/20322002026/3/candidatos"
+    },
+    {
+      "ue": "RJ",
+      "cargo": 3,
+      "path": "RJ/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RJ/20322002026/3/candidatos"
+    },
+    {
+      "ue": "RN",
+      "cargo": 3,
+      "path": "RN/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RN/20322002026/3/candidatos"
+    },
+    {
+      "ue": "RS",
+      "cargo": 3,
+      "path": "RS/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RS/20322002026/3/candidatos"
+    },
+    {
+      "ue": "RO",
+      "cargo": 3,
+      "path": "RO/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RO/20322002026/3/candidatos"
+    },
+    {
+      "ue": "RR",
+      "cargo": 3,
+      "path": "RR/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RR/20322002026/3/candidatos"
+    },
+    {
+      "ue": "SC",
+      "cargo": 3,
+      "path": "SC/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/20322002026/3/candidatos"
+    },
+    {
+      "ue": "SP",
+      "cargo": 3,
+      "path": "SP/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SP/20322002026/3/candidatos"
+    },
+    {
+      "ue": "SE",
+      "cargo": 3,
+      "path": "SE/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SE/20322002026/3/candidatos"
+    },
+    {
+      "ue": "TO",
+      "cargo": 3,
+      "path": "TO/3_governador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/TO/20322002026/3/candidatos"
+    },
+    {
+      "ue": "AC",
+      "cargo": 5,
+      "path": "AC/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AC/20322002026/5/candidatos"
+    },
+    {
+      "ue": "AL",
+      "cargo": 5,
+      "path": "AL/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AL/20322002026/5/candidatos"
+    },
+    {
+      "ue": "AP",
+      "cargo": 5,
+      "path": "AP/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AP/20322002026/5/candidatos"
+    },
+    {
+      "ue": "AM",
+      "cargo": 5,
+      "path": "AM/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AM/20322002026/5/candidatos"
+    },
+    {
+      "ue": "BA",
+      "cargo": 5,
+      "path": "BA/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BA/20322002026/5/candidatos"
+    },
+    {
+      "ue": "CE",
+      "cargo": 5,
+      "path": "CE/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/CE/20322002026/5/candidatos"
+    },
+    {
+      "ue": "DF",
+      "cargo": 5,
+      "path": "DF/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/DF/20322002026/5/candidatos"
+    },
+    {
+      "ue": "ES",
+      "cargo": 5,
+      "path": "ES/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/ES/20322002026/5/candidatos"
+    },
+    {
+      "ue": "GO",
+      "cargo": 5,
+      "path": "GO/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/GO/20322002026/5/candidatos"
+    },
+    {
+      "ue": "MA",
+      "cargo": 5,
+      "path": "MA/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MA/20322002026/5/candidatos"
+    },
+    {
+      "ue": "MT",
+      "cargo": 5,
+      "path": "MT/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MT/20322002026/5/candidatos"
+    },
+    {
+      "ue": "MS",
+      "cargo": 5,
+      "path": "MS/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MS/20322002026/5/candidatos"
+    },
+    {
+      "ue": "MG",
+      "cargo": 5,
+      "path": "MG/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MG/20322002026/5/candidatos"
+    },
+    {
+      "ue": "PA",
+      "cargo": 5,
+      "path": "PA/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PA/20322002026/5/candidatos"
+    },
+    {
+      "ue": "PB",
+      "cargo": 5,
+      "path": "PB/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PB/20322002026/5/candidatos"
+    },
+    {
+      "ue": "PR",
+      "cargo": 5,
+      "path": "PR/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PR/20322002026/5/candidatos"
+    },
+    {
+      "ue": "PE",
+      "cargo": 5,
+      "path": "PE/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PE/20322002026/5/candidatos"
+    },
+    {
+      "ue": "PI",
+      "cargo": 5,
+      "path": "PI/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PI/20322002026/5/candidatos"
+    },
+    {
+      "ue": "RJ",
+      "cargo": 5,
+      "path": "RJ/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RJ/20322002026/5/candidatos"
+    },
+    {
+      "ue": "RN",
+      "cargo": 5,
+      "path": "RN/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RN/20322002026/5/candidatos"
+    },
+    {
+      "ue": "RS",
+      "cargo": 5,
+      "path": "RS/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RS/20322002026/5/candidatos"
+    },
+    {
+      "ue": "RO",
+      "cargo": 5,
+      "path": "RO/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RO/20322002026/5/candidatos"
+    },
+    {
+      "ue": "RR",
+      "cargo": 5,
+      "path": "RR/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RR/20322002026/5/candidatos"
+    },
+    {
+      "ue": "SC",
+      "cargo": 5,
+      "path": "SC/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/20322002026/5/candidatos"
+    },
+    {
+      "ue": "SP",
+      "cargo": 5,
+      "path": "SP/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SP/20322002026/5/candidatos"
+    },
+    {
+      "ue": "SE",
+      "cargo": 5,
+      "path": "SE/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SE/20322002026/5/candidatos"
+    },
+    {
+      "ue": "TO",
+      "cargo": 5,
+      "path": "TO/5_senador.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/TO/20322002026/5/candidatos"
+    },
+    {
+      "ue": "AC",
+      "cargo": 6,
+      "path": "AC/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AC/20322002026/6/candidatos"
+    },
+    {
+      "ue": "AL",
+      "cargo": 6,
+      "path": "AL/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AL/20322002026/6/candidatos"
+    },
+    {
+      "ue": "AP",
+      "cargo": 6,
+      "path": "AP/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AP/20322002026/6/candidatos"
+    },
+    {
+      "ue": "AM",
+      "cargo": 6,
+      "path": "AM/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AM/20322002026/6/candidatos"
+    },
+    {
+      "ue": "BA",
+      "cargo": 6,
+      "path": "BA/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BA/20322002026/6/candidatos"
+    },
+    {
+      "ue": "CE",
+      "cargo": 6,
+      "path": "CE/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/CE/20322002026/6/candidatos"
+    },
+    {
+      "ue": "DF",
+      "cargo": 6,
+      "path": "DF/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/DF/20322002026/6/candidatos"
+    },
+    {
+      "ue": "ES",
+      "cargo": 6,
+      "path": "ES/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/ES/20322002026/6/candidatos"
+    },
+    {
+      "ue": "GO",
+      "cargo": 6,
+      "path": "GO/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/GO/20322002026/6/candidatos"
+    },
+    {
+      "ue": "MA",
+      "cargo": 6,
+      "path": "MA/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MA/20322002026/6/candidatos"
+    },
+    {
+      "ue": "MT",
+      "cargo": 6,
+      "path": "MT/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MT/20322002026/6/candidatos"
+    },
+    {
+      "ue": "MS",
+      "cargo": 6,
+      "path": "MS/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MS/20322002026/6/candidatos"
+    },
+    {
+      "ue": "MG",
+      "cargo": 6,
+      "path": "MG/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MG/20322002026/6/candidatos"
+    },
+    {
+      "ue": "PA",
+      "cargo": 6,
+      "path": "PA/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PA/20322002026/6/candidatos"
+    },
+    {
+      "ue": "PB",
+      "cargo": 6,
+      "path": "PB/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PB/20322002026/6/candidatos"
+    },
+    {
+      "ue": "PR",
+      "cargo": 6,
+      "path": "PR/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PR/20322002026/6/candidatos"
+    },
+    {
+      "ue": "PE",
+      "cargo": 6,
+      "path": "PE/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PE/20322002026/6/candidatos"
+    },
+    {
+      "ue": "PI",
+      "cargo": 6,
+      "path": "PI/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PI/20322002026/6/candidatos"
+    },
+    {
+      "ue": "RJ",
+      "cargo": 6,
+      "path": "RJ/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RJ/20322002026/6/candidatos"
+    },
+    {
+      "ue": "RN",
+      "cargo": 6,
+      "path": "RN/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RN/20322002026/6/candidatos"
+    },
+    {
+      "ue": "RS",
+      "cargo": 6,
+      "path": "RS/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RS/20322002026/6/candidatos"
+    },
+    {
+      "ue": "RO",
+      "cargo": 6,
+      "path": "RO/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RO/20322002026/6/candidatos"
+    },
+    {
+      "ue": "RR",
+      "cargo": 6,
+      "path": "RR/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RR/20322002026/6/candidatos"
+    },
+    {
+      "ue": "SC",
+      "cargo": 6,
+      "path": "SC/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/20322002026/6/candidatos"
+    },
+    {
+      "ue": "SP",
+      "cargo": 6,
+      "path": "SP/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SP/20322002026/6/candidatos"
+    },
+    {
+      "ue": "SE",
+      "cargo": 6,
+      "path": "SE/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SE/20322002026/6/candidatos"
+    },
+    {
+      "ue": "TO",
+      "cargo": 6,
+      "path": "TO/6_deputado_federal.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/TO/20322002026/6/candidatos"
+    },
+    {
+      "ue": "AC",
+      "cargo": 7,
+      "path": "AC/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AC/20322002026/7/candidatos"
+    },
+    {
+      "ue": "AL",
+      "cargo": 7,
+      "path": "AL/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AL/20322002026/7/candidatos"
+    },
+    {
+      "ue": "AP",
+      "cargo": 7,
+      "path": "AP/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AP/20322002026/7/candidatos"
+    },
+    {
+      "ue": "AM",
+      "cargo": 7,
+      "path": "AM/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/AM/20322002026/7/candidatos"
+    },
+    {
+      "ue": "BA",
+      "cargo": 7,
+      "path": "BA/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/BA/20322002026/7/candidatos"
+    },
+    {
+      "ue": "CE",
+      "cargo": 7,
+      "path": "CE/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/CE/20322002026/7/candidatos"
+    },
+    {
+      "ue": "ES",
+      "cargo": 7,
+      "path": "ES/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/ES/20322002026/7/candidatos"
+    },
+    {
+      "ue": "GO",
+      "cargo": 7,
+      "path": "GO/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/GO/20322002026/7/candidatos"
+    },
+    {
+      "ue": "MA",
+      "cargo": 7,
+      "path": "MA/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MA/20322002026/7/candidatos"
+    },
+    {
+      "ue": "MT",
+      "cargo": 7,
+      "path": "MT/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MT/20322002026/7/candidatos"
+    },
+    {
+      "ue": "MS",
+      "cargo": 7,
+      "path": "MS/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MS/20322002026/7/candidatos"
+    },
+    {
+      "ue": "MG",
+      "cargo": 7,
+      "path": "MG/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/MG/20322002026/7/candidatos"
+    },
+    {
+      "ue": "PA",
+      "cargo": 7,
+      "path": "PA/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PA/20322002026/7/candidatos"
+    },
+    {
+      "ue": "PB",
+      "cargo": 7,
+      "path": "PB/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PB/20322002026/7/candidatos"
+    },
+    {
+      "ue": "PR",
+      "cargo": 7,
+      "path": "PR/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PR/20322002026/7/candidatos"
+    },
+    {
+      "ue": "PE",
+      "cargo": 7,
+      "path": "PE/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PE/20322002026/7/candidatos"
+    },
+    {
+      "ue": "PI",
+      "cargo": 7,
+      "path": "PI/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/PI/20322002026/7/candidatos"
+    },
+    {
+      "ue": "RJ",
+      "cargo": 7,
+      "path": "RJ/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RJ/20322002026/7/candidatos"
+    },
+    {
+      "ue": "RN",
+      "cargo": 7,
+      "path": "RN/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RN/20322002026/7/candidatos"
+    },
+    {
+      "ue": "RS",
+      "cargo": 7,
+      "path": "RS/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RS/20322002026/7/candidatos"
+    },
+    {
+      "ue": "RO",
+      "cargo": 7,
+      "path": "RO/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RO/20322002026/7/candidatos"
+    },
+    {
+      "ue": "RR",
+      "cargo": 7,
+      "path": "RR/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/RR/20322002026/7/candidatos"
+    },
+    {
+      "ue": "SC",
+      "cargo": 7,
+      "path": "SC/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SC/20322002026/7/candidatos"
+    },
+    {
+      "ue": "SP",
+      "cargo": 7,
+      "path": "SP/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SP/20322002026/7/candidatos"
+    },
+    {
+      "ue": "SE",
+      "cargo": 7,
+      "path": "SE/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/SE/20322002026/7/candidatos"
+    },
+    {
+      "ue": "TO",
+      "cargo": 7,
+      "path": "TO/7_deputado_estadual.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/TO/20322002026/7/candidatos"
+    },
+    {
+      "ue": "DF",
+      "cargo": 8,
+      "path": "DF/8_deputado_distrital.json",
+      "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/listar/2026/DF/20322002026/8/candidatos"
+    }
+  ]
+}

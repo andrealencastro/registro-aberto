@@ -1,0 +1,60 @@
+name: capture
+
+on:
+  # Agendamento DESLIGADO por padrao. Rode `python collector.py --dry-run` e
+  # confira o resultado antes de ligar: basta descomentar as tres linhas
+  # abaixo. Ate la o workflow so roda a mao (Actions > capture > Run workflow).
+  # schedule:
+  #   # Nunca no minuto 00: e quando o agendador do GitHub congestiona.
+  #   - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # config.json e versionado. So redescobre se sumir — assim uma queda
+      # do endpoint de eleicoes nao derruba a coleta de candidaturas.
+      - name: Gerar config se ausente
+        run: test -f config.json || python discover.py
+
+      - name: Coletar
+        run: python collector.py
+
+      - name: Guardar metricas da execucao
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-${{ github.run_id }}-${{ github.run_attempt }}
+          path: metadata/runs.jsonl
+          retention-days: 90
+
+      - name: Commitar apenas se algum snapshot mudou
+        run: |
+          git config user.name  "coletor"
+          git config user.email "coletor@users.noreply.github.com"
+          # git add ANTES do teste: git diff nao enxerga arquivo nao
+          # rastreado, e na primeira execucao todos os snapshots sao novos.
+          git add snapshots
+          if git diff --cached --quiet -- snapshots; then
+            echo "nenhum snapshot mudou — sem commit"
+            exit 0
+          fi
+          n=$(git diff --cached --name-only -- snapshots | wc -l | tr -d ' ')
+          git add metadata
+          git commit -m "captura $(date -u +%Y-%m-%dT%H:%MZ) — ${n} arquivo(s)"
+          git push

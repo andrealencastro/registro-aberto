@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Saída derivada: analyze.py a regenera a partir do histórico do git
+transicoes.csv
+
+# Ambiente e editor
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# snapshots/ e metadata/ NÃO entram aqui: o workflow os versiona de propósito.
